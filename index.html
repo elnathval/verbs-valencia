@@ -8,7 +8,8 @@
     </head>
     <body>
         <div class="wordbox">
-            <h1>Paraula</h1>
+            <h1 id="paraula">Paraula</h1>
+            <h4 id="resposta"></h4>
         </div>
         <div class="optionbox">
             <div>
@@ -25,17 +26,17 @@
             <div>
                 <p>Conjugació:</p>
                 <select id="conjugacio">
-                    <option value="primera">Primera</option>
-                    <option value="segona">Segona</option>
-                    <option value="tercera">Tercera</option>
+                    <option value="1a">Primera</option>
+                    <option value="2a">Segona</option>
+                    <option value="3a">Tercera</option>
                 </select>
             </div>
             <div>
                 <p>Persona:</p>
                 <select id="persona">
-                    <option value="primera">Primera</option>
-                    <option value="segona">Segona</option>
-                    <option value="tercera">Tercera</option>
+                    <option value="1a">Primera</option>
+                    <option value="2a">Segona</option>
+                    <option value="3a">Tercera</option>
                 </select>
             </div>
             <div>
@@ -48,21 +49,21 @@
             <div>
                 <p>Temps:</p>
                 <select id="temps">
-                    <option value="present-simple">Present simple</option>
-                    <option value="passat-simple">Passat simple</option>
-                    <option value="passat-perifrastic">Passat perifràstic</option>
+                    <option value="present">Present simple</option>
+                    <option value="passat simple">Passat simple</option>
+                    <option value="passat perifrastic">Passat perifràstic</option>
                     <option value="imperfet">Imperfet</option>
-                    <option value="perfet">Perfet</option>
-                    <option value="plusquamperfet">Plusquamperfet</option>
-                    <option value="passat-anterior">Passat anterior</option>
-                    <option value="passat-anterior-perifrastic">Passat anterior perifràstic</option>
-                    <option value="futur-simple">Futur simple</option>
-                    <option value="futur-perfet">Futur perfet</option>
-                    <option value="condicional-simple">Condicional simple</option>
-                    <option value="condicional-perfet">Condicional perfet</option>
+                    <option value="pretèrit plusquamperfet">Plusquamperfet</option>
+                    <option value="passat anterior">Passat anterior</option>
+                    <option value="passat anterior perifrastic">Passat anterior perifràstic</option>
+                    <option value="futur">Futur simple</option>
+                    <option value="futur perfet">Futur perfet</option>
+                    <option value="condicional simple">Condicional simple</option>
+                    <option value="condicional perfet">Condicional perfet</option>
                 </select>
 
             </div>
+            <button id="comprovar" onclick="comprovar()">Comprovar</button>
         </div>
     </body>
 </html>
