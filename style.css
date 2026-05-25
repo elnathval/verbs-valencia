@@ -30,5 +30,15 @@ body {
 }
 
 .optionbox div {
-    padding: 50px;
+    padding: 30px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }

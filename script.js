@@ -4,14 +4,10 @@ var filaActual = [];
 // Amb fetch si el tens en un servidor
 
 
-
-
-
-
 function randomWord() {
     filaActual = files[Math.floor(Math.random() * files.length)];
     if(document.getElementById(filaActual[2]).checked) {
-        if((filaActual[2] === "infinitiu" || filaActual[2] === "gerundi") || document.getElementById(filaActual[3]).checked) {
+        if((filaActual[2] === "infinitiu" || filaActual[2] === "gerundi" || filaActual[2] === "participi" || filaActual[2] === "imperatiu") || document.getElementById(filaActual[3]).checked) {
         document.getElementById("paraula").textContent = filaActual[7];
         } else {
             randomWord();

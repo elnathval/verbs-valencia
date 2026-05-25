@@ -63,6 +63,7 @@
                     <option value="condicional perfet">Condicional perfet/Condicional perfecto</option>
                     <option value="pretèrit perfet">Pretèrit perfet/Pretérito perfecto</option>
                     <option value="pretèrit perfet compost">Pretèrit perfet compost/Pretérito perfecto compuesto</option>
+                    <option value="pretèrit anterior">Pretèrit anterior/Pretérito anterior</option>
                 </select>
 
             </div>
@@ -70,68 +71,73 @@
                 <button id="comprovar" onclick="comprovar()">Comprovar</button>
                 <button id="seguent" onclick="seguent()">Següent</button>
             </div>
-            <div>
-                <p>Mode:</p>
-                <input type="checkbox" id="indicatiu" checked>
-                <label for="indicatiu">Indicatiu</label>
-                <br>
-                <input type="checkbox" id="subjuntiu" checked>
-                <label for="subjuntiu">Subjuntiu</label>
-                <br>
-                <input type="checkbox" id="imperatiu" checked>
-                <label for="imperatiu">Imperatiu</label>
-                <br>
-                <input type="checkbox" id="infinitiu" checked>
-                <label for="infinitiu">Infinitiu</label>
-                <br>
-                <input type="checkbox" id="gerundi" checked>
-                <label for="gerundi">Gerundi</label>
-                <br>
-                <input type="checkbox" id="participi" checked>
-                <label for="participi">Participi</label>
-                <br>
-                <br>
-                <br>
-
-                <p>Temps:</p>
-                <input type="checkbox" id="present" checked>
-                <label for="present">Present/Presente</label>
-                <br>
-                <input type="checkbox" id="passat simple" checked>
-                <label for="passatSimple">Passat simple/Pasado simple</label>
-                <br>
-                <input type="checkbox" id="passat perifrastic" checked>
-                <label for="passatPerifrastic">Passat perifràstic/Pasado perifrástico</label>
-                <br>
-                <input type="checkbox" id="imperfet" checked>
-                <label for="imperfet">Imperfet/Pretèrito imperfecto</label>
-                <br>
-                <input type="checkbox" id="pretèrit plusquamperfet" checked>
-                <label for="plusquamperfet">Plusquamperfet/Pretérito pluscuamperfecto</label>
-                <br>
-                <input type="checkbox" id="passat anterior" checked>
-                <label for="passatAnterior">Passat anterior/Pasado anterior</label>
-                <br>
-                <input type="checkbox" id="passat anterior perifrastic" checked>
-                <label for="passatAnteriorPerifrastic">Passat anterior perifràstic/Pasado anterior perifrástico</label>
-                <br>
-                <input type="checkbox" id="futur" checked>
-                <label for="futur">Futur simple/Futuro simple</label>
-                <br>
-                <input type="checkbox" id="futur perfet" checked>
-                <label for="futurPerfet">Futur perfet/Futuro perfecto</label>
-                <br>
-                <input type="checkbox" id="condicional simple" checked>
-                <label for="condicionalSimple">Condicional simple</label>
-                <br>
-                <input type="checkbox" id="condicional perfet" checked>
-                <label for="condicionalPerfet">Condicional perfet/Condicional perfecto</label>
-                <br>
-                <input type="checkbox" id="pretèrit perfet" checked>
-                <label for="pretèritPerfet">Pretèrit perfet/Pretérito perfecto</label>
-                <br>
-                <input type="checkbox" id="pretèrit perfet compost" checked>
-                <label for="pretèritPerfetCompost">Pretèrit perfet compost/Pretérito perfecto compuesto</label>
+            <div class="filtre">
+                <div>
+                    <p>Mode:</p>
+                    <input type="checkbox" id="indicatiu" checked>
+                    <label for="indicatiu">Indicatiu</label>
+                    <br>
+                    <input type="checkbox" id="subjuntiu" checked>
+                    <label for="subjuntiu">Subjuntiu</label>
+                    <br>
+                    <input type="checkbox" id="imperatiu" checked>
+                    <label for="imperatiu">Imperatiu</label>
+                    <br>
+                    <input type="checkbox" id="infinitiu" checked>
+                    <label for="infinitiu">Infinitiu</label>
+                    <br>
+                    <input type="checkbox" id="gerundi" checked>
+                    <label for="gerundi">Gerundi</label>
+                    <br>
+                    <input type="checkbox" id="participi" checked>
+                    <label for="participi">Participi</label>
+                </div>
+                
+                <div>
+                    <p>Temps:</p>
+                    <input type="checkbox" id="present" checked>
+                    <label for="present">Present/Presente</label>
+                    <br>
+                    <input type="checkbox" id="passat simple" checked>
+                    <label for="passatSimple">Passat simple/Pasado simple</label>
+                    <br>
+                    <input type="checkbox" id="passat perifràstic" checked>
+                    <label for="passatPerifrastic">Passat perifràstic/Pasado perifrástico</label>
+                    <br>
+                    <input type="checkbox" id="imperfet" checked>
+                    <label for="imperfet">Imperfet/Pretèrito imperfecto</label>
+                    <br>
+                    <input type="checkbox" id="pretèrit plusquamperfet" checked>
+                    <label for="plusquamperfet">Plusquamperfet/Pretérito pluscuamperfecto</label>
+                    <br>
+                    <input type="checkbox" id="passat anterior" checked>
+                    <label for="passatAnterior">Passat anterior/Pasado anterior</label>
+                    <br>
+                    <input type="checkbox" id="passat anterior perifràstic" checked>
+                    <label for="passatAnteriorPerifrastic">Passat anterior perifràstic/Pasado anterior perifrástico</label>
+                    <br>
+                    <input type="checkbox" id="futur" checked>
+                    <label for="futur">Futur simple/Futuro simple</label>
+                    <br>
+                    <input type="checkbox" id="futur perfet" checked>
+                    <label for="futurPerfet">Futur perfet/Futuro perfecto</label>
+                    <br>
+                    <input type="checkbox" id="condicional simple" checked>
+                    <label for="condicionalSimple">Condicional simple</label>
+                    <br>
+                    <input type="checkbox" id="condicional perfet" checked>
+                    <label for="condicionalPerfet">Condicional perfet/Condicional perfecto</label>
+                    <br>
+                    <input type="checkbox" id="pretèrit perfet" checked>
+                    <label for="pretèritPerfet">Pretèrit perfet/Pretérito perfecto</label>
+                    <br>
+                    <input type="checkbox" id="pretèrit perfet compost" checked>
+                    <label for="pretèritPerfetCompost">Pretèrit perfet compost/Pretérito perfecto compuesto</label>
+                    <br>
+                    <input type="checkbox" id="pretèrit anterior" checked>
+                    <label for="pretèritAnterior">Pretèrit anterior/Pretérito anterior</label>
+                </div>
+                
             </div>
         </div>
         
