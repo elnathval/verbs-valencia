@@ -80,3 +80,8 @@ function comprovar() {
     randomWord(); 
 }
 
+function seguent() {
+    randomWord();
+    document.getElementById("resposta").textContent = "Següent...";
+}
+
